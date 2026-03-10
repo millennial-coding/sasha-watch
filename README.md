@@ -23,7 +23,7 @@ but "how fast is it heating up."
 This is the same or similar to the monitoring and alerting loops used in data center NOC environments —
 threshold detection, time-series logging, remote dashboards, and automated alerting.
 
-## Hardware
+### Hardware
 
 | Component | Role |
 |---|---|
@@ -31,7 +31,7 @@ threshold detection, time-series logging, remote dashboards, and automated alert
 | SI7021 | Temperature and humidity sensor (I2C) |
 | Orange Pi 5B | Local server — database, dashboard, automation |
 
-## Software Stack
+### Software Stack
 
 | Layer | Technology |
 |---|---|
@@ -43,7 +43,7 @@ threshold detection, time-series logging, remote dashboards, and automated alert
 | Version Control | Git / GitHub |
 | OS (SBC) | Joshua Riggs Ubuntu (Orange Pi 5B) |
 
-## Alert Thresholds
+### Alert Thresholds
 
 | Level | Condition |
 |---|---|
@@ -61,7 +61,7 @@ sasha-watch/
 └── README.md
 ```
 
-## Roadmap
+### Roadmap
 
 - [x] Repo initialized and structured
 - [ ] SI7021 sensor reading via Arduino IDE
@@ -73,6 +73,6 @@ sasha-watch/
 - [ ] Telegram alerting live
 - [ ] ADXL335 vibration sensor integration (Phase 2)
 
-## Author
+### Author
 
 Kyle Hebenheimer — [@millennial-coding](https://github.com/millennial-coding)
