@@ -68,9 +68,10 @@ sasha-watch/
 - [x] Serial output confirmed
 - [x] WiFi + data transmission to Orange Pi
 - [x] InfluxDB installed and receiving data
-- [ ] Grafana dashboard live
+- [x] Grafana dashboard live
+- [ ] Telegram alerting via n8n
+- [ ] Low humidity alert for Solomon (below 40%)
 - [ ] n8n automation configured
-- [ ] Telegram alerting live
 - [ ] ADXL335 vibration sensor integration (Phase 2)
 
 ### Author
