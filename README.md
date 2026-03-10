@@ -28,7 +28,7 @@ threshold detection, time-series logging, remote dashboards, and automated alert
 | Component | Role |
 |---|---|
 | ESP32-S3 Metro | Microcontroller / edge device |
-| SI7021 | Temperature and humidity sensor (I2C) |
+| SI7021 | Temperature and humidity sensor (STEMMA QT / I2C) |
 | Orange Pi 5B | Local server — database, dashboard, automation |
 
 ### Software Stack
