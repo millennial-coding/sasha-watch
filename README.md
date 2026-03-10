@@ -64,10 +64,10 @@ sasha-watch/
 ### Roadmap
 
 - [x] Repo initialized and structured
-- [ ] SI7021 sensor reading via Arduino IDE
-- [ ] Serial output confirmed
-- [ ] WiFi + data transmission to Orange Pi
-- [ ] InfluxDB installed and receiving data
+- [x] SI7021 sensor reading via Arduino IDE
+- [x] Serial output confirmed
+- [x] WiFi + data transmission to Orange Pi
+- [x] InfluxDB installed and receiving data
 - [ ] Grafana dashboard live
 - [ ] n8n automation configured
 - [ ] Telegram alerting live
